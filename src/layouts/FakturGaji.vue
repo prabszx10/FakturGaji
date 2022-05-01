@@ -356,4 +356,36 @@ export default {
     margin: 2vh 0;
   }
 }
+
+
+@media (max-width: 1000px) {
+  p{
+    font-size: 4vw;
+  }
+  h2{
+    font-size: 5vw
+  }
+
+  .nameAndDate {p{
+    font-size: 4vw;
+  }
+  h2{
+    font-size: 5vw
+  }
+  }
+  .group1 {
+  display: inline;
+  width: 100%;
+  .gaji,
+  .upahBorongan,
+  .komisi {
+    width: 95%;
+  }
+}
+
+  .iconEdit {
+    margin-left: 4vw;
+    font-size: 10vw;
+  }
+}
 </style>

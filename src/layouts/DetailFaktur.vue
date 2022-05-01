@@ -186,4 +186,24 @@ export default {
     }
   }
 }
+
+@media (max-width: 1000px) {
+  h1 {
+    font-size: 4vw;
+  }
+  .content{
+    .rekapGaji{
+    .gaji,
+    .upah,
+    .komisi,
+    .gajiKotor,
+    .tanggungan,
+    .gajiBersih {
+      p {
+        font-size: 3vw;
+      }
+    }
+  }
+  }
+}
 </style>
