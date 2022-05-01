@@ -1,0 +1,38 @@
+$primary-color: white;
+
+@mixin bold {
+    font-weight: 600;
+}
+
+@mixin button($w:100%, $bc:rgb(95, 95, 255)) {
+    font-weight: 600;
+    background-color: $bc;
+    width: $w;
+    padding: 1vw;
+    border: 1px solid rgb(95, 95, 255);
+    border-radius: 0.5vw;
+    color: white;
+    cursor: pointer;
+}
+
+@mixin buttonClose($w:100%, $bc:white) {
+    font-weight: 600;
+    background-color: $bc;
+    width: $w;
+    padding: 1vw;
+    border: 1px solid red;
+    border-radius: 0.5vw;
+    color: red;
+    cursor: pointer;
+}
+
+@mixin box($t-b: 0, $l-r:0) {
+    background-color: $primary-color;
+    margin: $t-b $l-r;
+}
+
+@mixin displayFlex($jc: space-between) {
+    display: flex;
+    justify-content: $jc;
+    align-items: center;
+}
